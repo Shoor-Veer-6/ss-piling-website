@@ -3,158 +3,139 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SS Piling – Foundation & Piling Contractors</title>
+<title>SS Piling | Professional Piling Contractors</title>
 
-<!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
-/* RESET */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* BODY */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #222;
 }
 
-/* HERO */
+/* HEADER */
 header {
-    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url("https://images.unsplash.com/photo-1503387762-592deb58ef4e");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+    background: linear-gradient(to right, #1f2933, #111827);
     color: #fff;
-    padding: 70px 20px;
+    text-align: center;
+    padding: 40px 15px;
 }
 
 header img {
-    width: 260px;
-    max-width: 90%;
-    margin-bottom: 15px;
+    max-width: 150px;
+    width: 100%;
+    margin: 15px auto;
 }
 
 header h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 48px;
-    letter-spacing: 2px;
+    font-size: 28px;
 }
 
 header p {
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    color: #f5a623;
-    text-transform: uppercase;
-    margin-top: 8px;
+    font-size: 16px;
+    opacity: 0.9;
 }
 
 /* CONTAINER */
 .container {
+    width: 100%;
     max-width: 1100px;
     margin: auto;
-    padding: 40px 20px;
+    padding: 20px;
 }
 
-/* SECTION */
+/* SECTIONS */
 section {
     background: #fff;
-    margin: 25px auto;
-    padding: 35px;
-    border-radius: 10px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-h2 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    margin-bottom: 20px;
-    border-left: 6px solid #f5a623;
-    padding-left: 12px;
+section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #111827;
 }
 
 /* SERVICES */
 .services {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 25px;
+    gap: 20px;
 }
 
 .service-box {
-    background: #fafafa;
-    padding: 25px 20px;
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
-    border-radius: 8px;
 }
 
 .service-box span {
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .service-box h3 {
-    font-family: 'Oswald', sans-serif;
-    margin: 12px 0;
-    font-size: 20px;
+    margin: 10px 0;
+    font-size: 18px;
 }
 
 /* CONTACT */
 .contact p {
-    font-size: 18px;
-    margin: 6px 0;
-    font-weight: 500;
+    font-size: 16px;
+    margin: 8px 0;
 }
 
 /* MAP */
 .map iframe {
     width: 100%;
-    max-width: 750px;
-    height: 420px;
+    height: 300px;
     border: 0;
     border-radius: 10px;
-    display: block;
-    margin: auto;
-}
-
-/* FOOTER */
-footer {
-    background: #111;
-    color: #ccc;
-    text-align: center;
-    padding: 18px;
-    font-size: 14px;
 }
 
 /* WHATSAPP BUTTON */
 .whatsapp {
     position: fixed;
-    right: 20px;
     bottom: 20px;
+    right: 20px;
     background: #25d366;
     color: #fff;
     padding: 14px 18px;
     border-radius: 50px;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
-    font-weight: bold;
     box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
-/* MOBILE */
-@media (max-width: 768px) {
-    header h1 { font-size: 36px; }
-    h2 { font-size: 26px; }
-    section { padding: 25px 20px; }
+/* FOOTER */
+footer {
+    background: #111827;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
 }
 
-@media (max-width: 480px) {
-    header img { width: 220px; }
-    .services { grid-template-columns: 1fr; }
+/* MOBILE FIXES */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 22px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
 }
 </style>
 </head>
@@ -162,73 +143,73 @@ footer {
 <body>
 
 <header>
+    <h1>SS Piling</h1>
+    <p>Professional & Reliable Piling Contractors</p>
     <img src="SS Piling.png" alt="SS Piling Logo">
-    <h1>SS PILING</h1>
-    <p>Trusted Piling & Foundation Contractors</p>
 </header>
 
-<section class="container">
+<div class="container">
+
+<section>
     <h2>About Us</h2>
     <p>
-        SS Piling is a professional piling and foundation contractor providing
-        reliable, accurate, and durable piling solutions for residential and
-        commercial construction projects. We focus on safety, strength,
-        and long-term performance.
+        SS Piling provides high-strength foundation piling solutions using modern
+        machinery and experienced operators for residential and commercial projects.
     </p>
 </section>
 
-<section class="container">
+<section>
     <h2>Our Services</h2>
     <div class="services">
         <div class="service-box">
             <span>🏗️</span>
-            <h3>Deep Piling Work</h3>
-            <p>Strong and stable deep foundation piling.</p>
+            <h3>Foundation Piling</h3>
+            <p>10–16 inch piling sizes</p>
         </div>
 
         <div class="service-box">
-            <span>📐</span>
-            <h3>Vertical Drilling</h3>
-            <p>Accurate 90° vertical piling alignment.</p>
+            <span>📏</span>
+            <h3>Deep Drilling</h3>
+            <p>10–16 feet depth</p>
         </div>
 
         <div class="service-box">
             <span>🏠</span>
             <h3>Residential Projects</h3>
-            <p>Piling solutions for houses & villas.</p>
+            <p>Homes & villas</p>
         </div>
 
         <div class="service-box">
             <span>🏢</span>
             <h3>Commercial Projects</h3>
-            <p>Heavy-duty piling for buildings & sites.</p>
+            <p>Shops & buildings</p>
         </div>
     </div>
 </section>
 
-<section class="container contact">
+<section class="contact">
     <h2>Contact Us</h2>
     <p>📞 8817244740</p>
     <p>📞 6264695978</p>
     <p>📞 7898462167</p>
+    <p>📧 contact@sspiling.in</p>
 </section>
 
-<section class="container map">
+<section class="map">
     <h2>Our Location</h2>
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29342.7010075287!2d77.39565245024235!3d23.176125654633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43710d34ab2f%3A0x1c8a40d7ef0f1a51!2sGehun%20Kheda%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1769928430430!5m2!1sen!2sin"
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29342.7010075287!2d77.39565245024235!3d23.176125654633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c43710d34ab2f%3A0x1c8a40d7ef0f1a51!2sGehun%20Kheda%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1769928430430!5m2!1sen!2sin"
+    loading="lazy"></iframe>
 </section>
 
-<footer>
-    <p>© 2026 SS Piling. All Rights Reserved.</p>
-</footer>
+</div>
 
 <a class="whatsapp" href="https://wa.me/918817244740" target="_blank">
-    💬 WhatsApp
+💬 WhatsApp
 </a>
+
+<footer>
+    © 2026 SS Piling. All Rights Reserved.
+</footer>
 
 </body>
 </html>
