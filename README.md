@@ -137,6 +137,40 @@ footer {
         font-size: 20px;
     }
 }
+.hero-machines {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    margin-top: 20px;
+}
+
+.machine {
+    position: absolute;
+    bottom: 0;
+    width: 180px;
+    max-width: 40%;
+}
+
+.machine.left {
+    left: 0;
+}
+
+.machine.right {
+    right: 0;
+    transform: scaleX(-1); /* mirror image */
+}
+
+/* MOBILE FIX */
+@media (max-width: 600px) {
+    .hero-machines {
+        height: 160px;
+    }
+
+    .machine {
+        width: 120px;
+    }
+}
+
 </style>
 </head>
 
@@ -146,6 +180,16 @@ footer {
     <h1>SS Piling</h1>
     <p>Professional & Reliable Piling Contractors</p>
     <img src="SS Piling.png" alt="SS Piling Logo">
+    <div class="hero-machines">
+    <img src="Gemini_Generated_Image_qpqmmsqpqmmsqpqm-removebg-preview.png" 
+         class="machine left" 
+         alt="Piling Machine Left">
+
+    <img src="Gemini_Generated_Image_qpqmmsqpqmmsqpqm-removebg-preview.png" 
+         class="machine right" 
+         alt="Piling Machine Right">
+</div>
+
 </header>
 
 <div class="container">
